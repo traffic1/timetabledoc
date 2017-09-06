@@ -50,6 +50,8 @@ formatksjssj : function(gp) {
 ```
 
 ## 三，行驶时间（默认从线路标准中获取）
+![](/assets/step3.png)
+![](/assets/step4.png)
 
 * *上行行驶时间，早高峰上行行驶时间，晚高峰上行行驶时间，低谷上行时间
 * *下行行驶时间，早高峰下行行驶时间，早高峰下行行驶时间，低谷下行时间
@@ -63,5 +65,3 @@ formatksjssj : function(gp) {
 										gatps.troughDownTime=='' ? gatps.downTravelTime : gatps.troughDownTime),// 低谷行驶时间。[下标0代表上；下标1代表下]
     
 ```
-![](/assets/step3.png)
-![](/assets/step4.png)

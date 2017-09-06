@@ -125,6 +125,16 @@ function getzzsj(map) {
 // 低谷最大发车间隙.
 'dgmaxfcjx' :  parseInt(gatps.dgmaxfcjx),
 
+function getMaxCarAndStopSpace1(map) {
+    // ...
+    
+    'fcjx': {
+        'gffcjx': Math.round(map.zzsj.gfzzsj/map.clzs) , 
+	'dgfcjx': Math.round(map.zzsj.dgzzsj/map.clzs),
+	'dgmaxfcjx' : parseInt(map.dgmaxfcjx)
+    },
+    // ...
+}
 
 ```
 

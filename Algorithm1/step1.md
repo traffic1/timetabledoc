@@ -28,7 +28,9 @@ formatksjssj : function(gp) {
 'gfzjsjd' : BaseFun.getsd(
     BaseFun.getDateTime(gatps.earlyEndTime),
     BaseFun.getDateTime(gatps.lateStartTime)),//高峰之间时间段
-
+'wgfzhsjd' : 
+    BaseFun.getsd(BaseFun.getDateTime(gatps.lateEndTime),
+    BaseFun.getDateTime(seMap.e)),// 晚高峰之后时间段
 
 ```
 ![](/assets/step2.png)

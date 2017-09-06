@@ -103,6 +103,21 @@ formatksjssj : function(gp) {
 ```
 
 ## 五，周转时间计算（根据之前的参数设置计算出来）
+```
+function getzzsj(map) {
+    // 一圈所用时间 (上行+下行+停歇时间)
+    return {
+        // 高峰周转时间
+        'gfzzsj':  parseInt(map.earlyUpTime =='' ? map.upTravelTime : map.earlyUpTime) + 					   parseInt(map.gfupStopTime) + parseInt(map.gfdownStopTime) + parseInt(map.earlyDownTime =='' ? map.downTravelTime : map.earlyDownTime ), 
+        // 低谷周转时间
+	'dgzzsj':  parseInt(map.troughUpTime==''? map.upTravelTime : map.troughUpTime) + parseInt(map.dgupStopTime) + parseInt(map.dgdownStopTime) + parseInt(map.troughDownTime==''? map.downTravelTime: map.troughDownTime),
+			'dgmaxzzsj' : parseInt(map.troughUpTime==''? map.upTravelTime : map.troughUpTime) + 
+			   			  parseInt(map.dgmaxtzsj) + parseInt(map.dgmaxtzsj) + 
+			   			  parseInt(map.troughDownTime==''? map.downTravelTime: map.troughDownTime),// 低谷最大的周转时间
+		};
+	}
+```
+
 
 ## 五，发车间隙（没有默认值，人工输入）
 * 低谷最大发车间隙（dgmaxfcjx，必填）

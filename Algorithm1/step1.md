@@ -62,20 +62,20 @@ formatksjssj : function(gp) {
 * 低谷下行时间（troughDownTime）
 
 ```
-    //在计算各个时间段的行驶时间时，默认设置为行驶时间，如果指定了特定行驶时间，如早高峰的时间，则使用
+//在计算各个时间段的行驶时间时，默认设置为行驶时间，如果指定了特定行驶时间，如早高峰的时间，则使用
     
-    // 平常行驶时间。[下标0代表上；下标1代表下]
-    'pcxssjArr' : BaseFun.formatPairing(
-        gatps.upTravelTime,
-        gatps.downTravelTime),
-    // 高峰行驶时间。[下标0代表上；下标1代表下]
-    'gfxxsjArr' : BaseFun.formatPairing(
-        gatps.lateUpTime=='' ? gatps.upTravelTime : gatps.lateUpTime,	
-        gatps.lateDownTime=='' ? gatps.downTravelTime : gatps.lateDownTime),
-    // 低谷行驶时间。[下标0代表上；下标1代表下]
-    'dgxxsjArr' : BaseFun.formatPairing(
-        gatps.troughUpTime=='' ? gatps.upTravelTime : gatps.troughUpTime,
-        gatps.troughDownTime=='' ? gatps.downTravelTime : gatps.troughDownTime)
+// 平常行驶时间。[下标0代表上；下标1代表下]
+'pcxssjArr' : BaseFun.formatPairing(
+    gatps.upTravelTime,
+    gatps.downTravelTime),
+// 高峰行驶时间。[下标0代表上；下标1代表下]
+'gfxxsjArr' : BaseFun.formatPairing(
+    gatps.lateUpTime=='' ? gatps.upTravelTime : gatps.lateUpTime,	
+    gatps.lateDownTime=='' ? gatps.downTravelTime : gatps.lateDownTime),
+// 低谷行驶时间。[下标0代表上；下标1代表下]
+'dgxxsjArr' : BaseFun.formatPairing(
+    gatps.troughUpTime=='' ? gatps.upTravelTime : gatps.troughUpTime,
+    gatps.troughDownTime=='' ? gatps.downTravelTime : gatps.troughDownTime)
         
     
 ```
@@ -87,6 +87,9 @@ formatksjssj : function(gp) {
 * 低谷下行停站时间（dgdownStopTime，必填）
 * 低谷最大停站时间（dgmaxtzsj，必填）
 
+```
+aaa
+```
 
 
 

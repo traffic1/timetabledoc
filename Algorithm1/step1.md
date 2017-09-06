@@ -19,6 +19,10 @@ formatksjssj : function(gp) {
 
 ```
 // 相关时间段计算代码
+'zgfsjd' : BaseFun.getsd(
+    BaseFun.getDateTime(gatps.earlyStartTime),
+    BaseFun.getDateTime(gatps.earlyEndTime)), // 早高峰时间段
+
 ```
 ![](/assets/step2.png)
 * *上行行驶时间，早高峰上行行驶时间，晚高峰上行行驶时间，低谷上行时间

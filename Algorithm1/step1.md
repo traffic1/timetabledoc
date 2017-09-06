@@ -5,14 +5,16 @@
 > 从form表单中获取参数，并封装成相应对象
 
 ### 相关参数，代码，图示
+![](/assets/step1.png)
+
+
+
+
+
 * 上行首班车的行驶时间（startStationFirstTime，必填）
 * 上行末班车的行驶时间（startStationEndTime，必填）
 * 下行首班车的行驶时间（endStationFirstTime，必填）
 * 下行末班车的行驶时间（endStationEndTime，必填）
-
-
-* 上下行首末班车的行驶时间（从线路标准中获取）
-* #### ddd
 
 ```
 // 相关计算代码：
@@ -26,7 +28,11 @@ formatksjssj : function(gp) {
 'smbcsjArr' : BaseFun.formatksjssj(gatps)
 
 ```
-![](/assets/step1.png)
+
+
+
+
+
 * *早晚高峰开始结束时间（从线路标准中获取）
 
 ```

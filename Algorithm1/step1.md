@@ -81,7 +81,7 @@ formatksjssj : function(gp) {
 ```
 
 ## 四、停站时间（没有默认值，人工输入）
-* 高峰上行停站时间（）
+* 高峰上行停站时间（gfupStopTime，必填）
 
 
 

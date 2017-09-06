@@ -22,7 +22,6 @@ formatksjssj : function(gp) {
 'zgfsjd' : BaseFun.getsd(
     BaseFun.getDateTime(gatps.earlyStartTime),
     BaseFun.getDateTime(gatps.earlyEndTime)), // 早高峰时间段
-    
 'wgfsjd' : BaseFun.getsd(
     BaseFun.getDateTime(gatps.lateStartTime),
     BaseFun.getDateTime(gatps.lateEndTime)),// 晚高峰时间段

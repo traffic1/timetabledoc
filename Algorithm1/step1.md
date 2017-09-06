@@ -93,8 +93,13 @@ formatksjssj : function(gp) {
 'gftzsj':BaseFun.formatPairing(
     gatps.gfupStopTime,
     gatps.gfdownStopTime),
-				'dgtzsj' : BaseFun.formatPairing(gatps.dgupStopTime,gatps.dgdownStopTime),// 低谷停站时间.
-				'dgmaxtzsj' :  parseInt(gatps.dgmaxtzsj),// 低谷最大停站时间.
+// 低谷停站时间.
+'dgtzsj':BaseFun.formatPairing(
+    gatps.dgupStopTime,
+    gatps.dgdownStopTime),
+// 低谷最大停站时间.
+'dgmaxtzsj' :  parseInt(gatps.dgmaxtzsj),
+
 ```
 
 

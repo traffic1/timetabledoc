@@ -55,7 +55,7 @@ formatksjssj : function(gp) {
 * 上行行驶时间（upTravelTime，必填）
 * 下行行驶时间（downTravelTime，必填）
 * 早高峰上行时间（earlyUpTime）
-* 早高峰下行时间
+* 早高峰下行时间（earlyDownTime）
 * 晚高峰上行时间
 * 晚高峰下行时间
 * 低谷上行时间

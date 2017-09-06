@@ -127,6 +127,7 @@ function getzzsj(map) {
 
 function getMaxCarAndStopSpace1(map) {
     // ...
+    // 里面的车辆总数是后面设定的参数
     
     'fcjx': {
         'gffcjx': Math.round(map.zzsj.gfzzsj/map.clzs) , 

@@ -14,7 +14,6 @@ formatksjssj : function(gp) {
 'smbcsjArr' : BaseFun.formatksjssj(gatps)
 
 ```
-
 ![](/assets/step1.png)
 * *早晚高峰开始结束时间（从线路标准中获取）
 ![](/assets/step2.png)

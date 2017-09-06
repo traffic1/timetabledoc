@@ -31,7 +31,10 @@ formatksjssj : function(gp) {
 'wgfzhsjd' : 
     BaseFun.getsd(BaseFun.getDateTime(gatps.lateEndTime),
     BaseFun.getDateTime(seMap.e)),// 晚高峰之后时间段
-
+'zgfzqsjd': 
+    BaseFun.getsd(BaseFun.getDateTime(seMap.s),
+    BaseFun.getDateTime(gatps.earlyStartTime)),//早高峰之前时间段
+    
 ```
 ![](/assets/step2.png)
 * *上行行驶时间，早高峰上行行驶时间，晚高峰上行行驶时间，低谷上行时间

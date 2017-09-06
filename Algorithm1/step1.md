@@ -6,6 +6,7 @@
 
 ### 相关参数，代码，图示
 * 上行首班车的行驶时间（startStationFirstTime，必填）
+* 上行末班车的行驶时间（startStationEndTime，必填）
 
 
 * 上下行首末班车的行驶时间（从线路标准中获取）

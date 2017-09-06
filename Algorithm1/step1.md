@@ -110,6 +110,7 @@ formatksjssj : function(gp) {
 // 低谷最大发车间隙.
 'dgmaxfcjx' :  parseInt(gatps.dgmaxfcjx),
 
+
 ```
 
 

@@ -7,6 +7,8 @@ formatksjssj : function(gp) {
    return [{'kssj':gp.startStationFirstTime,'jssj':gp.startStationEndTime},
    {'kssj':gp.endStationFirstTime,'jssj':gp.endStationEndTime}];
 }
+
+'smbcsjArr' : BaseFun.formatksjssj(gatps), // 起终点站首末班车时间.[下标0代表起始站的首末班车时间；下标1代表终点站的首末班车时间]
 ```
 
 ![](/assets/step1.png)

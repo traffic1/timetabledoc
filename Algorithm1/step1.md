@@ -104,6 +104,8 @@ formatksjssj : function(gp) {
 
 ## 五，周转时间计算（根据之前的参数设置计算出来）
 ```
+// 里面计算高峰周转时间用的是早高峰的数据
+
 function getzzsj(map) {
     // 一圈所用时间 (上行+下行+停歇时间)
     return {

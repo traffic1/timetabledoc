@@ -72,7 +72,8 @@ formatksjssj : function(gp) {
     'gfxxsjArr' : BaseFun.formatPairing(
         gatps.lateUpTime=='' ? gatps.upTravelTime : gatps.lateUpTime,	
         gatps.lateDownTime=='' ? gatps.downTravelTime : gatps.lateDownTime),
+    // 低谷行驶时间。[下标0代表上；下标1代表下]
     'dgxxsjArr' : BaseFun.formatPairing(gatps.troughUpTime=='' ? gatps.upTravelTime : gatps.troughUpTime,
-										gatps.troughDownTime=='' ? gatps.downTravelTime : gatps.troughDownTime),// 低谷行驶时间。[下标0代表上；下标1代表下]
+										gatps.troughDownTime=='' ? gatps.downTravelTime : gatps.troughDownTime),
     
 ```

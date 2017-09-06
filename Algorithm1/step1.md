@@ -26,6 +26,8 @@ formatksjssj : function(gp) {
 ![](/assets/step2.png)
 * 早高峰开始时间（earlyStartTime，必填）
 * 早高峰结束时间（earlyEndTime，必填）
+* 晚高峰开始时间（lateStartTime，必填）
+* 晚高峰结束时间（lateEndTime，必填）
 
 ```
 // 相关时间段计算代码

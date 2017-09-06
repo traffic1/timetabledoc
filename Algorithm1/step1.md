@@ -63,7 +63,9 @@ formatksjssj : function(gp) {
 
 ```
     //在计算各个时间段的行驶时间时，默认设置为行驶时间，如果指定了特定行驶时间，如早高峰的时间，则使用
-    'pcxssjArr' : BaseFun.formatPairing(gatps.upTravelTime,gatps.downTravelTime),// 平常行驶时间。[下标0代表上；下标1代表下]
+    
+    // 平常行驶时间。[下标0代表上；下标1代表下]
+    'pcxssjArr' : BaseFun.formatPairing(gatps.upTravelTime,gatps.downTravelTime),
     'gfxxsjArr' : BaseFun.formatPairing(gatps.lateUpTime=='' ? gatps.upTravelTime : gatps.lateUpTime,
 													gatps.lateDownTime=='' ? gatps.downTravelTime : gatps.lateDownTime),// 高峰行驶时间。[下标0代表上；下标1代表下]
     'dgxxsjArr' : BaseFun.formatPairing(gatps.troughUpTime=='' ? gatps.upTravelTime : gatps.troughUpTime,

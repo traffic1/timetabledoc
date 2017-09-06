@@ -24,7 +24,7 @@ formatksjssj : function(gp) {
 
 ## 二，早晚高峰开始结束时间（从线路标准中获取）
 ![](/assets/step2.png)
-* 早高峰开始时间（）
+* 早高峰开始时间（earlyStartTime，必填）
 
 ```
 // 相关时间段计算代码

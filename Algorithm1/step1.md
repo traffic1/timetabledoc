@@ -58,8 +58,8 @@ formatksjssj : function(gp) {
 * 早高峰下行时间（earlyDownTime）
 * 晚高峰上行时间（lateUpTime）
 * 晚高峰下行时间（lateDownTime）
-* 低谷上行时间
-* 低谷下行时间
+* 低谷上行时间（troughUpTime）
+* 低谷下行时间（troughDownTime）
 
 
 * *上行行驶时间，早高峰上行行驶时间，晚高峰上行行驶时间，低谷上行时间

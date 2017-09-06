@@ -111,10 +111,8 @@ function getzzsj(map) {
         'gfzzsj':  parseInt(map.earlyUpTime =='' ? map.upTravelTime : map.earlyUpTime) + 					   parseInt(map.gfupStopTime) + parseInt(map.gfdownStopTime) + parseInt(map.earlyDownTime =='' ? map.downTravelTime : map.earlyDownTime ), 
         // 低谷周转时间
 	'dgzzsj':  parseInt(map.troughUpTime==''? map.upTravelTime : map.troughUpTime) + parseInt(map.dgupStopTime) + parseInt(map.dgdownStopTime) + parseInt(map.troughDownTime==''? map.downTravelTime: map.troughDownTime),
-			'dgmaxzzsj' : parseInt(map.troughUpTime==''? map.upTravelTime : map.troughUpTime) + 
-			   			  parseInt(map.dgmaxtzsj) + parseInt(map.dgmaxtzsj) + 
-			   			  parseInt(map.troughDownTime==''? map.downTravelTime: map.troughDownTime),// 低谷最大的周转时间
-		};
+	// 低谷最大的周转时间
+	'dgmaxzzsj' : parseInt(map.troughUpTime==''? map.upTravelTime : map.troughUpTime) + parseInt(map.dgmaxtzsj) + parseInt(map.dgmaxtzsj) + parseInt(map.troughDownTime==''? map.downTravelTime: map.troughDownTime),		};
 	}
 ```
 

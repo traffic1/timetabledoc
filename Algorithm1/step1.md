@@ -84,7 +84,7 @@ formatksjssj : function(gp) {
 * 高峰上行停站时间（gfupStopTime，必填）
 * 高峰下行停站时间（gfdownStopTime，必填）
 * 低谷上行停站时间（dgupStopTime，必填）
-
+* 低谷下行停站时间（）
 
 
 

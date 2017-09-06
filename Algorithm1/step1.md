@@ -22,11 +22,9 @@ formatksjssj : function(gp) {
 
 ```
 
-
-
-
-
-* *早晚高峰开始结束时间（从线路标准中获取）
+## 二，早晚高峰开始结束时间（从线路标准中获取）
+![](/assets/step2.png)
+* 早高峰开始时间（）
 
 ```
 // 相关时间段计算代码
@@ -47,7 +45,7 @@ formatksjssj : function(gp) {
     BaseFun.getDateTime(gatps.earlyStartTime)),//早高峰之前时间段
     
 ```
-![](/assets/step2.png)
+
 * *上行行驶时间，早高峰上行行驶时间，晚高峰上行行驶时间，低谷上行时间
 * *下行行驶时间，早高峰下行行驶时间，早高峰下行行驶时间，低谷下行时间
 

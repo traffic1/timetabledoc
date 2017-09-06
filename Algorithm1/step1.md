@@ -139,7 +139,7 @@ function getMaxCarAndStopSpace1(map) {
 
 ```
 
-## 七，班型配置和车辆数
+## 七，班型配置和车辆数（没有默认值，人工输入）
 
 
 

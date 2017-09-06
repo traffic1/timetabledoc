@@ -89,7 +89,12 @@ formatksjssj : function(gp) {
 
 ```
 // 相关代码
-
+// 高峰停站时间.
+'gftzsj':BaseFun.formatPairing(
+    gatps.gfupStopTime,
+    gatps.gfdownStopTime),
+				'dgtzsj' : BaseFun.formatPairing(gatps.dgupStopTime,gatps.dgdownStopTime),// 低谷停站时间.
+				'dgmaxtzsj' :  parseInt(gatps.dgmaxtzsj),// 低谷最大停站时间.
 ```
 
 

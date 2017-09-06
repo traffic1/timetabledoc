@@ -3,6 +3,8 @@
 * *上下行首末班车的行驶时间（从线路标准中获取）
 
 ```
+// 相关计算代码：
+
 formatksjssj : function(gp) {
    return [{'kssj':gp.startStationFirstTime,'jssj':gp.startStationEndTime},
    {'kssj':gp.endStationFirstTime,'jssj':gp.endStationEndTime}];

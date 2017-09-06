@@ -22,6 +22,8 @@ formatksjssj : function(gp) {
 'zgfsjd' : BaseFun.getsd(
     BaseFun.getDateTime(gatps.earlyStartTime),
     BaseFun.getDateTime(gatps.earlyEndTime)), // 早高峰时间段
+    
+
 
 ```
 ![](/assets/step2.png)

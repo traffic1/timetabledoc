@@ -61,10 +61,6 @@ formatksjssj : function(gp) {
 * 低谷上行时间（troughUpTime）
 * 低谷下行时间（troughDownTime）
 
-
-* *上行行驶时间，早高峰上行行驶时间，晚高峰上行行驶时间，低谷上行时间
-* *下行行驶时间，早高峰下行行驶时间，早高峰下行行驶时间，低谷下行时间
-
 ```
     //在计算各个时间段的行驶时间时，默认设置为行驶时间，如果指定了特定行驶时间，如早高峰的时间，则使用
     'pcxssjArr' : BaseFun.formatPairing(gatps.upTravelTime,gatps.downTravelTime),// 平常行驶时间。[下标0代表上；下标1代表下]

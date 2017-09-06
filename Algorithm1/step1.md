@@ -140,7 +140,8 @@ function getMaxCarAndStopSpace1(map) {
 ```
 
 ## 七，班型配置和车辆数（没有默认值，人工输入）
-
+* 班型人次（bxrc，必选）
+* 车辆总数（clzs，必填）
 
 
 

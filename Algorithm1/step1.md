@@ -70,8 +70,8 @@ formatksjssj : function(gp) {
         gatps.downTravelTime),
     // 高峰行驶时间。[下标0代表上；下标1代表下]
     'gfxxsjArr' : BaseFun.formatPairing(
-    gatps.lateUpTime=='' ? gatps.upTravelTime : gatps.lateUpTime,	
-    gatps.lateDownTime=='' ? gatps.downTravelTime : gatps.lateDownTime),
+        gatps.lateUpTime=='' ? gatps.upTravelTime : gatps.lateUpTime,	
+        gatps.lateDownTime=='' ? gatps.downTravelTime : gatps.lateDownTime),
     'dgxxsjArr' : BaseFun.formatPairing(gatps.troughUpTime=='' ? gatps.upTravelTime : gatps.troughUpTime,
 										gatps.troughDownTime=='' ? gatps.downTravelTime : gatps.troughDownTime),// 低谷行驶时间。[下标0代表上；下标1代表下]
     

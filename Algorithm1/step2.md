@@ -20,3 +20,7 @@ getdefaultDir01 : function(list , xxsj , tzsj) {
 ```
 
 ## 二，结束时间确定
+
+```
+// 比较上下行哪个末班车晚
+```

@@ -23,4 +23,8 @@ getdefaultDir01 : function(list , xxsj , tzsj) {
 
 ```
 // 比较上下行哪个末班车晚
+function getStartAndEndDate(map) {
+		return {'s': map.linePlayType == '1' ? map.startStationFirstTime : getMinDate(map.startStationFirstTime,map.endStationFirstTime),
+				'e': map.linePlayType == '1' ? map.startStationEndTime : getMaxDate(map.startStationEndTime,map.endStationEndTime)}
+	}
 ```

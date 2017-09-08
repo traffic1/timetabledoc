@@ -7,4 +7,14 @@
 ```
 // 下行班车时间+下行行驶时间+下行停站时间 > 上行头班时间
 // 如果true=上行，如果false=下行
+getdefaultDir01 : function(list , xxsj , tzsj) {
+	var sxtbcsj =  baseF.getDateTime(list[0].kssj);
+	var xxtbcsj =  baseF.getDateTime(list[1].kssj);
+	xxtbcsj.setMinutes(xxtbcsj.getMinutes() + xxsj + tzsj);
+	if(xxtbcsj>sxtbcsj) {
+		return 0;
+	}else {
+		return 1;
+	}
+}
 ```

@@ -109,7 +109,7 @@ function getzzsj(map) {
     // 一圈所用时间 (上行+下行+停歇时间)
     return {
         // 高峰周转时间
-        'gfzzsj':  parseInt(map.earlyUpTime =='' ? map.upTravelTime : map.earlyUpTime) + 					   parseInt(map.gfupStopTime) + parseInt(map.gfdownStopTime) + parseInt(map.earlyDownTime =='' ? map.downTravelTime : map.earlyDownTime ), 
+        'gfzzsj':  parseInt(map.earlyUpTime =='' ? map.upTravelTime : map.earlyUpTime) + parseInt(map.gfupStopTime) + parseInt(map.gfdownStopTime) + parseInt(map.earlyDownTime =='' ? map.downTravelTime : map.earlyDownTime ), 
         // 低谷周转时间
 	'dgzzsj':  parseInt(map.troughUpTime==''? map.upTravelTime : map.troughUpTime) + parseInt(map.dgupStopTime) + parseInt(map.dgdownStopTime) + parseInt(map.troughDownTime==''? map.downTravelTime: map.troughDownTime),
 	// 低谷最大的周转时间

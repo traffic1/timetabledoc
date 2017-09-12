@@ -6,4 +6,5 @@
   * [步骤2-初始布局](Algorithm1/step2.md)
   * [步骤3-纵向调整](Algorithm1/step3.md)
   * [步骤4-整理班次1](Algorithm1/step4.md)
+  * [步骤5-横向调整](Algorithm1/step5.md)
 
